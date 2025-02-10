@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:data\\kurs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:data\\ogretmen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\kurs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:controllers\\kurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:controllers\\kurskayitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\kurskayit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\kurskayit\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\kurs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\ogretmen\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\ogretmen\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\ogretmen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\ogretmen\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:controllers\\ogretmencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\ogrenci\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:controllers\\ogrencicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|c:\\users\\samet\\onedrive\\masa\u00FCst\u00FC\\asp.netdersleri\\efcoreapp\\views\\ogretmen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{05C12E99-7BD1-4442-985D-8C9ECD08B1E9}|EFCOREAPP.csproj|solutionrelative:views\\ogretmen\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kurs.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Data\\Kurs.cs",
+              "RelativeDocumentMoniker": "Data\\Kurs.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Data\\Kurs.cs",
+              "RelativeToolTip": "Data\\Kurs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:52:13.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KursController.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\KursController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KursController.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\KursController.cs",
+              "RelativeToolTip": "Controllers\\KursController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:37:39.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Kurs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurs\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Kurs\\Index.cshtml",
+              "RelativeToolTip": "Views\\Kurs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T15:38:42.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ogretmen.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Data\\Ogretmen.cs",
+              "RelativeDocumentMoniker": "Data\\Ogretmen.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Data\\Ogretmen.cs",
+              "RelativeToolTip": "Data\\Ogretmen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:41:51.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KursKayitController.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\KursKayitController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KursKayitController.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\KursKayitController.cs",
+              "RelativeToolTip": "Controllers\\KursKayitController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T15:40:20.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\KursKayit\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\KursKayit\\Create.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\KursKayit\\Create.cshtml",
+              "RelativeToolTip": "Views\\KursKayit\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T15:39:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Kurs\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurs\\Create.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Kurs\\Create.cshtml",
+              "RelativeToolTip": "Views\\Kurs\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T15:39:27.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogretmen\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Ogretmen\\Edit.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T14:42:40.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OgretmenController.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\OgretmenController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OgretmenController.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\OgretmenController.cs",
+              "RelativeToolTip": "Controllers\\OgretmenController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAADwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:31:05.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogretmen\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ogretmen\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T13:38:55.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OgrenciController.cs",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\OgrenciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OgrenciController.cs",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Controllers\\OgrenciController.cs",
+              "RelativeToolTip": "Controllers\\OgrenciController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T14:38:06.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogrenci\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogrenci\\Index.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogrenci\\Index.cshtml",
+              "RelativeToolTip": "Views\\Ogrenci\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T13:44:08.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ogretmen\\Create.cshtml",
+              "ToolTip": "C:\\Users\\samet\\OneDrive\\Masa\u00FCst\u00FC\\asp.netdersleri\\EFCOREAPP\\Views\\Ogretmen\\Create.cshtml",
+              "RelativeToolTip": "Views\\Ogretmen\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T13:54:41.678Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

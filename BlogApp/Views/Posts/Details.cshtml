@@ -1,0 +1,128 @@
+﻿@model Post
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="bg-white p-4">
+            <h1>@Model.Title</h1>
+            <div class="tags">
+                @foreach (var tag in Model.Tags)
+                {
+                    <a href="/posts/tag/@tag.Url" class="badge bg-@tag.Color bg-opacity-10 text-@tag.Color mb-2 fw-bold">@tag.Text</a>
+                }
+            </div>
+            <img src="~/img/@Model.Image" class="img-fluid rounded" />
+            <div>
+                @Model.Content
+            </div>
+        </div>
+        <div class="bg-white mt-3">
+            <div class="card border-0">
+                <div class="card-header pb-0">
+
+                    <h4> <span id="commentCount">@ViewBag.commentCount </span> adet yorum</h4>
+                </div>
+                <div class="card-body">
+                    <div id="comments">
+
+                        @foreach (var comment in Model.Comments)
+                        {
+                            <div class="my-4 d-flex">
+                                <img src="~/img/@comment.User.Image" class="avatar rounded-circle float-start me-3" />
+                                <div>
+                                    <div class="mb-2 d-flex ">
+                                        <h6 class="me-2" style="font-weight:bold ;font-size:large">@comment.User.UserName </h6>
+                                        <small>@comment.PublishedOn.ToString("dd.MM.yy HH:mm")</small>
+                                    </div>
+                                    <p>@comment.Text</p>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <hr class="my-4" />
+                    <div>
+                        <h4 class="mb-3">Yorum Ekle</h4>
+                        <form action="/posts/AddComment" method="post">
+                            <input type="hidden" id="PostId" name="PostId" value="@Model.PostId" />
+
+                            <div class="mb-3">
+                                <label for="UserName" class="form-label">UserName</label>
+                                <input type="text" name="UserName" id="UserName" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label for="Text" class="form-label">Yorum</label>
+                                <textarea type="text" name="Text" id="Text" class="form-control" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button id="btnYorumKayit" type="submit" class="btn btn-primary">Kaydet</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <vc:tags-menu></vc:tags-menu>
+        <vc:new-posts></vc:new-posts>
+    </div>
+</div>
+
+@section Script {
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnYorumKayit").click(function (e) {
+                e.preventDefault(); // Formun submit edilmesini engeller
+
+                // Form alanlarını kontrol et
+                const userName = $('#UserName').val().trim();
+                const text = $('#Text').val().trim();
+
+                if (userName === "" || text === "") {
+                    alert("Yorum yapmak için tüm alanları doldurun."); // Basit bir uyarı mesajı
+                    return; // İşlemi durdur
+                }
+
+                // AJAX isteği
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("AddComment")', // Controller'daki AddComment Action
+                    dataType: 'json',
+                    data: {
+                        PostId: $('#PostId').val(),
+                        UserName: userName,
+                        Text: text,
+                    },
+                    success: function (yorum) {
+                        var date = new Date(yorum.publishedOn); // Gelen yorum tarihini JS Date nesnesine çevir
+                        $("#comments").append(`
+                        <div class="my-4 d-flex">
+                            <img src="/img/${yorum.image}" class="avatar rounded-circle float-start me-3" alt="User Image" />
+                            <div>
+                                <div class="mb-2 d-flex">
+                                    <h6 class="me-2" style="font-weight: bold; font-size: large;">${yorum.userName}</h6>
+                                    <small>${date.toLocaleDateString('tr-TR', { day: '2-digit', month: '2-digit', year: '2-digit' })}</small>
+                                </div>
+                                <p>${yorum.text}</p>
+                            </div>
+                        </div>
+                        `);
+
+                        // Form alanlarını temizle
+                        $("#UserName").val('');
+                        $("#Text").val('');
+
+                        // Yorum sayısını güncelle
+                        var adet = parseInt($("#commentCount").text());
+                        $("#commentCount").text(adet + 1);
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Yorum eklenirken bir hata oluştu:", error);
+                        alert("Yorum eklenirken bir hata oluştu. Lütfen tekrar deneyin.");
+                    }
+                });
+            });
+        });
+    </script>
+}
