@@ -1,7 +1,6 @@
 # 📌 ASP.NET Core 8.0 ile Sıfırdan İleri Seviye Web Geliştirme Kursu (SADIK TURAN) - Tüm Projeler
 
 Bu repo, **ASP.NET Core 8.0** ile web geliştirme sürecini kapsayan eğitim projelerini içermektedir.  
-Kurs boyunca yapılan projeler ve açıklamaları aşağıda verilmiştir.  
 
 ---
 
